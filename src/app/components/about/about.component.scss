@@ -1,0 +1,16 @@
+@import "../../../styles.scss";
+
+.card{
+    border: none;
+    background-color: $slate-gray;
+    width: 740px;
+    height: 500px;
+}
+.profile-image{
+    width: 300px;
+    height: 200px;
+}
+.about-container{
+    display: flex;
+    justify-content: center;
+}
