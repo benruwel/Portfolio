@@ -1,0 +1,19 @@
+@import "../../../styles.scss";
+
+.projects{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.card{
+    border: none;
+    width: 550px;
+}
+.card-img-overlay{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.322);
+}
+.row{
+    margin-bottom: 20px;
+}
