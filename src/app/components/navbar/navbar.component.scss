@@ -4,6 +4,7 @@
     background-color:$rich-black;
     margin: 20px;
     border-radius: 10px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.233);
     .navbar{
         display: flex;
         flex-direction: row;
@@ -12,10 +13,13 @@
             color: white;
             font-size: 30px;
             margin:0;
-            padding: 0;
-        }
-        .nav-left{
-            align-items: flex-end;
+            padding-top: 5px;
+            text-align: center;
         }
     }
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
