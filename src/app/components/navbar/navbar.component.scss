@@ -1,5 +1,21 @@
+@import "../../../styles.scss";
+
 .dark-navbar{
-    background-color: #11151c;
+    background-color:$rich-black;
     margin: 20px;
     border-radius: 10px;
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        .title{
+            font-family: 'Viga', sans-serif;
+            color: white;
+            font-size: 30px;
+            margin:0;
+            padding: 0;
+        }
+        .nav-left{
+            align-items: flex-end;
+        }
+    }
 }

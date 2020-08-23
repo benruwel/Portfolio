@@ -1,0 +1,16 @@
+@import "../../../styles.scss";
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-text{
+    font-family: 'Schoolbell', cursive;
+    font-size: 60px;
+    color: $primary-blue;
+}
+.arrow-down{
+    align-content: flex-end;
+    margin-top: 80px;
+}
