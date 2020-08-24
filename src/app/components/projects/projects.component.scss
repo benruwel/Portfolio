@@ -1,7 +1,10 @@
 @import "../../../styles.scss";
 
 .projects{
+    padding: 0;
+    margin-top: 100px;
     display:flex;
+    height: 100vh;
     flex-direction: column;
     align-content: center;
     justify-content: center;
@@ -10,9 +13,11 @@
     border: none;
     width: 550px;
 }
+
+
 .card-img-overlay{
     color: white;
-    background-color: rgba(0, 0, 0, 0.322);
+    background-image: linear-gradient(#11151c0e, #11151cbd);
 }
 .row{
     margin-bottom: 20px;
