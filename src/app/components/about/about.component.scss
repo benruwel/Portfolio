@@ -1,8 +1,18 @@
 @import "../../../styles.scss";
 
+.technologies-left{
+    position: absolute;
+    left: 50px;
+}
+.technologies-right{
+    position: absolute;
+    right: 45px;
+}
+
 .card{
     border: none;
-    background-color: $slate-gray;
+    background-color: #11151ca6;
+    color: white;
     width: 740px;
     height: 500px;
 }
@@ -13,4 +23,8 @@
 .about-container{
     display: flex;
     justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: $prussian-blue;
+    height: 100vh;
 }

@@ -3,14 +3,34 @@
 .hero{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+    height: 100vh;
+    background-color: $rich-black;
 }
 .hero-text{
     font-family: 'Schoolbell', cursive;
     font-size: 60px;
     color: $primary-blue;
 }
+.hero-text::after{
+    content: "";
+    position: relative;
+    right: -5px;
+    width: 1px;
+    height: 5%;
+    border-right: 4px solid slategray;
+    animation: blink 0.5s infinite ease;
+}
 .arrow-down{
     align-content: flex-end;
     margin-top: 80px;
+}
+@keyframes blink{
+    0%{
+        opacity : 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }

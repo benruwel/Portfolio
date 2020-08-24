@@ -9,6 +9,7 @@ import { AboutComponent } from './components/about/about.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { TextAnimationDirective } from './directives/text-animation.directive';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { FooterComponent } from './components/footer/footer.component';
     AboutComponent,
     ProjectsComponent,
     ContactsComponent,
-    FooterComponent
+    FooterComponent,
+    TextAnimationDirective
   ],
   imports: [
     BrowserModule,

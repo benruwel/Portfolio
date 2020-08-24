@@ -1,0 +1,10 @@
+@import "../main-styles.scss";
+
+.navigation{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.landing, .about, .projects, .contacts, .footer{
+    z-index: 0;
+}
