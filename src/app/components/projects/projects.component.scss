@@ -1,17 +1,15 @@
 @import "../../../styles.scss";
 
 .projects{
-    padding: 0;
-    margin-top: 100px;
+    padding-top: 100px;
+    background-color: #e5e5e5;
     display:flex;
-    height: 100vh;
+    width: 100%;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
 }
 .card{
     border: none;
-    width: 550px;
+    width: 520px;
 }
 
 
@@ -20,5 +18,5 @@
     background-image: linear-gradient(#11151c0e, #11151cbd);
 }
 .row{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }

@@ -1,5 +1,11 @@
 .contact-box{
-    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    background-color: #e5e5e5;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
 }
 .contact-form{
     padding: 20px;
@@ -17,4 +23,7 @@
         align-items: center;
         margin: 10px;
     }
+}
+.btn{
+    margin-top: 10px;
 }
