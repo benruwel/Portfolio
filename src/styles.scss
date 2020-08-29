@@ -2,3 +2,8 @@
 @import "./main-styles.scss";
 @import "https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Roboto&family=Schoolbell&family=Viga&display=swap";
 @import "~bootstrap/dist/css/bootstrap.css";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap');
+body{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+}

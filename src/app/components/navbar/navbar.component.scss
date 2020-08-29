@@ -2,20 +2,14 @@
 
 .dark-navbar{
     background-color:$rich-black;
-    margin: 20px;
-    opacity: 0.75;
-    border-radius: 10px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.233);
-    &:hover{
-        opacity: 1;
-    }
     .navbar{
         display: flex;
         flex-direction: row;
         .title{
             font-family: 'Viga', sans-serif;
             color: white;
-            font-size: 30px;
+            font-size: 20px;
             margin:0;
             padding-top: 5px;
             text-align: center;

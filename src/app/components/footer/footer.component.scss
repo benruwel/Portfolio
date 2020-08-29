@@ -9,10 +9,10 @@
 }
 .footer-navlinks{
     padding: 0px 10px;
-    // border-bottom: 2px solid $primary-blue;
-    transition : box-shadow 1s linear;
     &:hover{        
-        box-shadow: 0px 0px 0px 10px $primary-blue;
+        // border-bottom: 2px solid $primary-blue;
+        box-shadow: 0px 2px $primary-blue;
+        // box-shadow: 0px 0px 0px 10px $primary-blue;
     }
 }
 .footer-list{

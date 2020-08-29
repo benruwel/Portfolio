@@ -9,8 +9,8 @@
     background-color: $rich-black;
 }
 .hero-text{
-    font-family: 'Schoolbell', cursive;
-    font-size: 60px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50px;
     color: $primary-blue;
 }
 .hero-text::after{
@@ -24,7 +24,9 @@
 }
 .arrow-down{
     align-content: flex-end;
-    margin-top: 80px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
 }
 @keyframes blink{
     0%{

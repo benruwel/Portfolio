@@ -1,3 +1,5 @@
+@import "../../../styles.scss";
+
 .contact-box{
     box-sizing: border-box;
     display: flex;
@@ -5,7 +7,15 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    height: 100vh;
+    height: 80vh;
+}
+.form-control, .btn{
+    font-size: 14px;
+}
+.title{
+    font-family: 'Viga', sans-serif;
+    color:$prussian-blue;
+    font-size: 18px;
 }
 .contact-form{
     padding: 20px;
@@ -25,5 +35,5 @@
     }
 }
 .btn{
-    margin-top: 10px;
+    margin-top: 20px;
 }
