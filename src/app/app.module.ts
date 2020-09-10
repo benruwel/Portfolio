@@ -10,6 +10,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { TextAnimationDirective } from './directives/text-animation.directive';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { TextAnimationDirective } from './directives/text-animation.directive';
     ProjectsComponent,
     ContactsComponent,
     FooterComponent,
-    TextAnimationDirective
+    TextAnimationDirective,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
