@@ -3,6 +3,12 @@
 @import "https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&family=Roboto&family=Schoolbell&family=Viga&display=swap";
 @import "~bootstrap/dist/css/bootstrap.css";
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+
 body{
     font-family: 'Roboto Mono', monospace;
     font-size: 14px;
